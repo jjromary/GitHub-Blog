@@ -1,12 +1,9 @@
 import styled from "styled-components";
 
 export const SummaryUserContainer = styled.div`
-  position: absolute;
   width: 864px;
   height: 212px;
-  left: calc(50% - 864px / 2);
-  top: 208px;
-
+  margin-top: -80px;
   background: ${(props) => props.theme["base-profile"]};
   box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -73,8 +70,6 @@ export const About = styled.div`
   margin-top: 0.5rem;
   width: 612px;
   height: 52px;
-  /* left: 220px;
-  top: 79px; */
   line-height: 160%;
 `;
 
@@ -82,14 +77,11 @@ export const Infos = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  margin-top: 24px;
   gap: 24px;
 
-  position: absolute;
   width: 493px;
   height: 26px;
-  left: 220px;
-  top: calc(50% - 26px / 2 + 62px);
 
   img {
     margin-right: 0.5rem;

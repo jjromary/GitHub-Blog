@@ -9,3 +9,12 @@ export const LayoutContainer = styled.div`
   background: ${(props) => props.theme["blue-500"]};
   flex-direction: column;
 `;
+
+export const ContainerPages = styled.main`
+  width: 864px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
