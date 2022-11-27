@@ -1,9 +1,14 @@
+import SummaryUser from "../../Components/SummaryUser";
+import Cards from "./Components/Cards";
+import SearchPost from "./Components/SearchPosts";
 import { HomeContainer } from "./styles";
 
 export default function Home() {
   return (
     <HomeContainer>
-      <h1>Você está na Home</h1>
+      <SummaryUser />
+      <SearchPost />
+      <Cards />
     </HomeContainer>
   )
 }

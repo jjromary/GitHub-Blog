@@ -11,6 +11,27 @@ export const HeaderContent = styled.div`
   margin: 0 auto;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+`;
+
+export const TopContent = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+`;
+
+export const BottomContent = styled.div``;
+
+export const LightBar = styled.div`
+  width: 891px;
+  height: 52px;
+  left: calc(50% - 891px / 2 - 2.5px);
+  top: 235px;
+
+  background: #14589c;
+  filter: blur(106px);
 `;
